@@ -50,6 +50,7 @@ export default function explore ( {propertiesForRent,propertiesForSale}){
             />
             <Flex flexWrap={"wrap"} justifyContent="center" background={"#f7f7f7"}>
                 {propertiesForSale.map((property) => <Property property = {property} key={property.id}/>)}
+                
             </Flex>
             
         </div>

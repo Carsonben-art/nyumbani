@@ -9,9 +9,12 @@ import { AiFillAppstore } from "react-icons/ai";
 
 
 
-import Property from "@/components/Property";
 
-const PopularResidence = ({ propertiesForRent, propertiesForSale}) =>(
+
+// import { baseUrl,fetchApi } from '@/utils/fetchApi';
+// import Property from "@/components/Property";
+
+const PopularResidence = () =>(
     <Box background={"#ffffff"} padding="1rem">
         <Flex padding={"2rem"}>
             <Box>
@@ -24,7 +27,7 @@ const PopularResidence = ({ propertiesForRent, propertiesForSale}) =>(
         <Flex  marginBottom={"-100px"} flexWrap="wrap">
             <Spacer/>
             <Box width={"250px"} boxShadow="8px #000000" background="#ffffff">
-                <Image src={"/images/house1.jpg"} width="250"  height={"300"} />
+                <Image src={"/images/house1.jpg"} width="250"  height={"300"} alt="home"/>
                 <Flex>
                     <MdVerified color="#0f5252"/> <Spacer/><Text fontSize={"1.2rem"} fontWeight="bold">Ksh. 76M</Text> <Spacer/> 
                     <Image
@@ -45,7 +48,7 @@ const PopularResidence = ({ propertiesForRent, propertiesForSale}) =>(
             </Box>
             <Spacer/>
             <Box width={"250px"} boxShadow="8px #000000" background="#ffffff">
-                <Image src={"/images/house1.jpg"} width="250"  height={"300"} />
+                <Image src={"/images/house1.jpg"} width="250"  height={"300"} alt="home"/>
                 <Flex>
                     <MdVerified color="#0f5252"/> <Spacer/><Text fontSize={"1.2rem"} fontWeight="bold">Ksh. 76M</Text> <Spacer/> 
                     <Image
@@ -67,7 +70,7 @@ const PopularResidence = ({ propertiesForRent, propertiesForSale}) =>(
             <Spacer/>
 
             <Box width={"250px"} boxShadow="8px #000000" marginRight={"30px"} background="#ffffff">
-                <Image src={"/images/house1.jpg"} width="250"  height={"300"} />
+                <Image src={"/images/house1.jpg"} width="250"  height={"300"} alt="home"/>
                 <Flex>
                     <MdVerified color="#0f5252"/> <Spacer/><Text fontSize={"1.2rem"} fontWeight="bold">Ksh. 76M</Text> <Spacer/> 
                     <Image
@@ -86,9 +89,9 @@ const PopularResidence = ({ propertiesForRent, propertiesForSale}) =>(
             </Box>
             <Spacer/>
             <Box width={"250px"} boxShadow="8px #000000" background={"#ffffff"}>
-                <Image src={"/images/house1.jpg"} width="250"  height={"300"} />
+                <Image src={"/images/house1.jpg"} width="250"  height={"300"} alt="home"/>
                 <Flex>
-                    <MdVerified color="#0f5252"/> <Spacer/><Text fontSize={"1.2rem"} fontWeight="bold">Ksh. 76M</Text> <Spacer/> 
+                    <MdVerified color="#0f5252"/> <Spacer/><Text fontSize={"1.2rem"} fontWeight="bold">Ksh. 23M</Text> <Spacer/> 
                     <Image
                         borderRadius='full'
                         boxSize='50px'
@@ -104,16 +107,8 @@ const PopularResidence = ({ propertiesForRent, propertiesForSale}) =>(
                 <Flex justifyContent={"center"} alignItems="center" marginBottom={"20px"}><Link href={"/book-house"}><Button background={"#0f5252"} color="#ffffff">Book Now</Button></Link></Flex>
             </Box>
             <Spacer/>
-
-            {/* <Flex flexWrap={"wrap"} justifyContent="center">
-                {propertiesForRent?.map((property) => <Property property = {property} key={property.id}/>)}
-            </Flex> */}
-                {/* { propertiesForRent.map((property) => <Property property={property} key={property.id}/>)} */}
-
-            {/* <Flex flexWrap={"wrap"} justifyContent="center">
-                {propertiesForSale?.map((property) => <Property property = {property} key={property.id}/>)}
-            </Flex> */}
-                {/* {propertiesForSale.map((property) => <Property property = {property} key={property.id}/>)} */}
+    
+            
             
         </Flex>
         <Box background={"#000000"} height="60vh">
@@ -135,6 +130,17 @@ const PopularResidence = ({ propertiesForRent, propertiesForSale}) =>(
 );
 
 
+// export async function getStaticProps(){
+//     const propertyForSale = await fetchApi(`${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-sale&hitsPerPage=6`);
+//     const propertyForRent = await fetchApi(`${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-rent&hitsPerPage=6`);
+
+//     return {
+//         props:{
+//             propertiesForSale: propertyForSale?.hits,
+//             propertiesForRent: propertyForRent?.hits,
+//         }
+//     }
+// }
 
 export default PopularResidence;
 
