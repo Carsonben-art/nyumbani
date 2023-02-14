@@ -19,16 +19,16 @@ const Footer =()=>(
                 <Link href='/' >
                     <Text color='#ffffff' fontSize='0.8rem' _hover='#5b8181'>HOME</Text>
                 </Link>
-                <Link href='/' >
+                <Link href='/explore' >
                     <Text color='#ffffff' fontSize='0.8rem'>EXPLORE HOMES</Text>
                 </Link>
-                <Link href='/' >
+                <Link href='/Search' >
                     <Text color='#ffffff' fontSize='0.8rem'>SEARCH</Text>
                 </Link>
-                <Link href='/' >
+                <Link href='/Search?purpose=for-sale' >
                     <Text color='#ffffff' fontSize='0.8rem'>BUY PROPERTY</Text>
                 </Link>
-                <Link href='/' >
+                <Link href='/Search?purpose=for-rent' >
                     <Text color='#ffffff' fontSize='0.8rem'>RENT PROPERTY</Text>
                 </Link>
             </Box>
