@@ -20,20 +20,20 @@ const Featured = () =>(
                     </Flex>
                 </Box>
                 
-                <Box width={"250px"} height="auto" marginRight={"2rem"}>
-                    <Flex flexDirection={"column"} justifyContent="center" alignItems={"center"}>
-                        <BsCoin fontSize={"1.8rem"} color="#0f5252"/>
-                        <Text fontWeight={"bold"}>Affordable Prices</Text>
-                        <Text fontSize={"0.8rem"} color="#d9d9d9">Properties that we work with are more affordable than other places with the same facilities and better qualities than others.
+                <Box width="250px" height="auto" marginRight="2rem">
+                    <Flex flexDirection="column" justifyContent="center" alignItems="center">
+                        <BsCoin fontSize="1.8rem" color="#0f5252"/>
+                        <Text fontWeight="bold">Affordable Prices</Text>
+                        <Text fontSize="0.8rem" color="#d9d9d9">Properties that we work with are more affordable than other places with the same facilities and better qualities than others.
                         </Text>
                     </Flex>
                 </Box>
                 <Spacer />
-                <Box width={"250px"} height="auto">
-                    <Flex flexDirection={"column"} justifyContent="center" alignItems={"center"}>
-                        <GiTimeTrap fontSize={"1.8rem"} color="#0f5252"/>
-                        <Text fontWeight={"bold"}>Quick Process</Text>
-                        <Text fontSize={"0.8rem"} color="#d9d9d9">With a quick process, you don't have to wait a long time to inhabit your dream home immediately with your family.
+                <Box width="250px" height="auto">
+                    <Flex flexDirection="column" justifyContent="center" alignItems={"center"}>
+                        <GiTimeTrap fontSize="1.8rem" color="#0f5252"/>
+                        <Text fontWeight="bold">Quick Process</Text>
+                        <Text fontSize="0.8rem" color="#d9d9d9">With a quick process, you don't have to wait a long time to inhabit your dream home immediately with your family.
                         </Text>
                     </Flex>
                 </Box>
