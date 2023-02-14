@@ -33,7 +33,7 @@ const Featured = () =>(
                     <Flex flexDirection="column" justifyContent="center" alignItems={"center"}>
                         <GiTimeTrap fontSize="1.8rem" color="#0f5252"/>
                         <Text fontWeight="bold">Quick Process</Text>
-                        <Text fontSize="0.8rem" color="#d9d9d9">With a quick process, you don&apost have to wait a long time to inhabit your dream home immediately with your family.
+                        <Text fontSize="0.8rem" color="#d9d9d9">With a quick process, you do not have to wait a long time to inhabit your dream home immediately with your family.
                         </Text>
                     </Flex>
                 </Box>

@@ -120,7 +120,7 @@ const PopularResidence = () =>(
                 </Box>
                 <Spacer/>
                 <Box>
-                    <Text color="#ffffff" fontSize="1.2rem" fontWeight="bold">&apos Here you can find your dream house <br/> easily, quickly and very practically with carious types.&apos</Text>
+                    <Text color="#ffffff" fontSize="1.2rem" fontWeight="bold"> Here you can find your dream house <br/> easily, quickly and very practically with carious types.</Text>
                 </Box>
                 <Spacer/>
             </Flex>
